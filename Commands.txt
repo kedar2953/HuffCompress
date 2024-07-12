@@ -1,0 +1,7 @@
+##ENCODING
+    g++ encode.cpp huffman.cpp -o encode
+    ./encode .\input.txt compressesFile.huf
+
+##DECODING
+    g++ decode.cpp huffman.cpp -o decode
+    ./decode compressesFile.huf output.txt
